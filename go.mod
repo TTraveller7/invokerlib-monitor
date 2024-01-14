@@ -2,7 +2,7 @@ module github.com/TTraveller7/invokerlib-monitor
 
 go 1.19
 
-require github.com/TTraveller7/invokerlib v0.0.7
+require github.com/TTraveller7/invokerlib v0.0.8
 
 require (
 	github.com/IBM/sarama v1.42.1 // indirect
