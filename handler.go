@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/TTraveller7/invokerlib"
+	"github.com/TTraveller7/invokerlib/pkg/api"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	invokerlib.MonitorHandle(w, r)
+	api.MonitorHandle(w, r)
 }
